@@ -1,6 +1,10 @@
-<button class="btn btn-primary" [disabled]="!allowAddServer">
-    Add server
+<label for="name">Server name</label>
+<input type="text" name="name" id="name" autocomplete="off" [(ngModel)]="serverName" class="form-control">
+<!-- <p>{{serverName}}</p> -->
+<button class="btn btn-primary" [disabled]="!allowAddServer" (click)="onCreateServer()">
+  Add server
 </button>
-<p [innerText]="allowAddServer"></p>
+<!-- <p [innerText]="allowAddServer"></p> -->
+<p> {{addServerStatus}} </p>
 <div class="app-server"></div>
 <div class="app-server"></div>

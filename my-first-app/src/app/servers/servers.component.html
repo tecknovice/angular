@@ -5,6 +5,6 @@
   Add server
 </button>
 <!-- <p [innerText]="allowAddServer"></p> -->
-<p> {{addServerStatus}} </p>
-<div class="app-server"></div>
-<div class="app-server"></div>
+<p *ngIf="serverCreated else noServer"> Server was created, servername is {{serverName}} </p>
+<ng-template #noServer> <p>No server was created</p> </ng-template>
+<div class="app-server" *ngFor="let server of servers"></div>

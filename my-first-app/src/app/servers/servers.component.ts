@@ -14,6 +14,10 @@ export class ServersComponent {
 
   serverName;
 
+  serverCreated = false;
+
+  servers = ['TestServer1', 'TestServer2']
+
   constructor(){
     setTimeout(() => {
       this.allowAddServer = true;
@@ -21,6 +25,8 @@ export class ServersComponent {
   }
 
   onCreateServer(){
+    this.serverCreated = true;
+    this.servers.push(this.serverName)
     this.addServerStatus = "server " + this.serverName;
   }
 

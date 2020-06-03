@@ -1,0 +1,60 @@
+{
+  "heroes": [
+    {
+      "name": "Ant-Man",
+      "id": 1
+    },
+    {
+      "name": "Aquaman",
+      "id": 2
+    },
+    {
+      "name": "Batman",
+      "id": 3
+    },
+    {
+      "name": "Black Panther",
+      "id": 4
+    },
+    {
+      "name": "Captain America",
+      "id": 5
+    },
+    {
+      "name": "Captain Marvel",
+      "id": 6
+    },
+    {
+      "name": "Catwoman",
+      "id": 7
+    },
+    {
+      "name": "Doctor Strange",
+      "id": 8
+    },
+    {
+      "name": "Elektra",
+      "id": 9
+    },
+    {
+      "name": "Ghost Rider",
+      "id": 10
+    },
+    {
+      "name": "Green Lantern",
+      "id": 11
+    },
+    {
+      "name": "Hellboy",
+      "id": 12
+    },
+    {
+      "name": "Incredible Hulk",
+      "id": 13
+    },
+    {
+      "name": "Iron Man",
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<ul id="messages">
+  <li *ngFor="let message of messages">{{message}}</li>
+</ul>
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit(messageForm.value)">
+  <input id="message" formControlName="message" autocomplete="off" />
+  <button type="submit">Send</button>
+</form>
+
+
